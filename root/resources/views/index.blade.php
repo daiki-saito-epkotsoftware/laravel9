@@ -4,6 +4,7 @@
     </x-slot>
 
     <h1 class="text-2xl">web日報登録</h1>
+    <div>{{ $password }}</div>
 
     <form class="border rounded bg-white form-time-table" action="{{ url('/index')}}">
         {{ csrf_field() }}
